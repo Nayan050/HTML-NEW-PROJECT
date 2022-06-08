@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(188, 219, 12, 0.801);
+  }
+  .wrapper {
+    width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgba(236, 10, 10, 0.418);
+    border: 1px solid rgb(64 64 64 / 5%);
+  }
+  div#stopwatch {
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 0 50px 0;
+  }
+  ul#buttons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  ul#buttons button {
+    width: 100px;
+    color: #fff;
+    text-align: left;
+    display: block;
+        cursor: pointer;
+    background: #c40e18;
+    background: -webkit-linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+    background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+  }
